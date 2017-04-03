@@ -1,6 +1,6 @@
 {
-  "name": "github-io-react-app",
-  "homepage": "https://marcomo.github.io/react-github-io",
+  "name": "react-pricing-table",
+  "homepage": "https://marcomo.github.io/react-pricing-table",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
