@@ -134,19 +134,24 @@ a {
   border-right: 2px dotted #66ab45;
 }
 
-.content-after-included::after {
+.content-after-included:after {
   content: "included";
   display: block;
 }
 
-content-after-turnaround::after {
+.content-after-turnaround:after {
   content: "turnaround";
   display: block;
 }
 
-content-after-support::after {
+.content-after-support:after {
   content: "included support";
   display: block;
+}
+
+[class*='content-after']:after {
+  font-size: .9em;
+  color: #66ab45;
 }
 
 .col_line {

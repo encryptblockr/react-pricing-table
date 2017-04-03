@@ -73,15 +73,18 @@ const initialState = {
   featurable: [
     { 
       name: 'hours', 
-      formatter: (value) => `Up to ${value} hours`
+      formatter: (value) => `Up to ${value} hours`,
+      class: 'content-after-included'
     },
     {
       name: 'turnaroundDays',
-      formatter: (value) => `${value.length ? value.join("-") : value} days`
+      formatter: (value) => `${value.length ? value.join("-") : value} days`,
+      class: 'content-after-turnaround'
     },
     {
       name: 'trainingHours',
-      formatter: (value) => `${value} hours`
+      formatter: (value) => `${value} hours`,
+      class: 'content-after-support'
     },
     {
       name: 'benefit', 
